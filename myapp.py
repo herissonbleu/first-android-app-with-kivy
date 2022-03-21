@@ -176,9 +176,9 @@ class MyApp(MDApp):
         self.root.clear_widgets()
         self.stop()
         return MyApp().run()
-
-    def build(self):
-        return Builder.load_file('myapp.kv')
+    #No need for next part as Kivy will load myapp.kv automatically
+    #def build(self):
+    #    return Builder.load_file('myapp.kv')
     
 
 if __name__ == '__main__':
